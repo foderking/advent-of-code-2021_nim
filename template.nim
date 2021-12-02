@@ -1,4 +1,4 @@
-import utility, strutils, seqUtils, sugar
+import utility, strutils, seqUtils, sugar, strscans
 
 const 
     day = "<day>"
