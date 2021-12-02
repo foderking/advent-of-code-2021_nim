@@ -1,0 +1,32 @@
+import utility, strutils, seqUtils, sugar
+
+const 
+    day = "<day>"
+
+proc partOne() =
+    const part = "1"
+    var
+        count = 0
+
+    for index, each in getInput(day):
+        discard
+
+    echo "Answer: " & $count
+    submitAnswer(day, part, $count)
+
+proc partTwo() =
+    const
+        part = "2"
+    var
+        count = 0
+
+    for index, each in getInput(day):
+        discard
+
+    echo "Answer: " & $count
+    submitAnswer(day, part, $count)
+
+
+when isMainModule:
+    partOne()
+    partTwo()
