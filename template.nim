@@ -3,6 +3,12 @@ import utility, strutils, seqUtils, sugar, strscans
 const 
     day = "<day>"
 
+proc altGetInput(): seq[string] =
+    discard getInput(day)
+
+    return readFile("input6.txt").split('\n')
+
+
 proc partOne() =
     const part = "1"
     var
